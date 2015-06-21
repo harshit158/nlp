@@ -16,7 +16,7 @@ sentences=tokenizer.tokenize(text)
 #sentences=sentence_delimiters.split(text)
 #print sentences
 
-#------------------------------------------------------------------
+#--------------------Word splitting--------------------------------
 
 stop_word_list = stopwords.words('english')
 
