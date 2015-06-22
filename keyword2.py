@@ -102,7 +102,7 @@ word_scores=calculate_word_score(phrase_list)
 
 keyword_candidates= generate_candidate_keyword_scores(phrase_list,word_scores)
 sorted_keywords = sorted(keyword_candidates.iteritems(), key=operator.itemgetter(1), reverse=True)
-for item in sorted_keywords[:10]:
+for item in sorted_keywords[:20]:
 	print item[0]
 
 
